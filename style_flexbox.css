@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 5vw;
+  height: 100vh;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  width: 30vw;
+}
+
+.right {
+  width: 70vw;
+}
+
+.block1, .block4, .block2, .block3, .block5 {
+  display: flex;
+  border: 0.1vw solid black;
+}
+
+.block1 {
+  background-color: #f5e3d8;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.block4 {
+  background-color: #e6f4d4;
+}
+
+.block2 {
+  background-color: #d0e3f7;
+  justify-content: space-between;
+}
+
+.block-x {
+  position: relative;
+  top: 15%;
+  left: 5%;
+  background-color: white;
+  border: 0.1vw solid black;
+  width: clamp(3em, 8.75vw, 140px); /* Ширина залежить від розміру шрифту */
+  height: clamp(1.5em, 5.7vh, 40px); /* Висота залежить від розміру шрифту */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 8.1vw; /* Обмеження максимальної ширини */
+  max-height: 4vh; /* Обмеження максимальної висоти */
+}
+.block-x h2 {
+  font-size: clamp(1px, 1.84vw, 16px); /* Задає адаптивний розмір шрифту */
+}
+
+.block3 {
+  background-color: white;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block5 {
+  background-color: #d0e3f7;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-y {
+  position: relative;
+  bottom: 25%;
+  right: 5%;
+  background-color: white;
+  border: 0.1vw solid black;
+  width: clamp(20px, 8.75vw, 140px);
+  height: clamp(5px, 5.7vh, 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 8.1vw;
+  max-height: 4vh;
+}
+
+.block-y h2 {
+  font-size: clamp(1px, 1.84vw, 14px); /* Задає адаптивний розмір шрифту */
+}
+
+.text-block3 {
+  width: 80%;
+  font-size: clamp(1px, 1.84vmin, 16px);/*1.84vh;*/
+}
+
+.sub-container-block2 {
+  position: relative;
+  right: 2vw;
+  width: 40vw;
+  padding: 2vh;
+  font-size: clamp(1px, 1.84vmin, 16px);/*1.84vh;  15!!!*/
+}
+
+.sub-container-block4 {
+  position: relative;
+  padding: 2vw;
+  font-size: clamp(1px, 1.84vmin, 16px);/*1.84vh;*/
+}
+
+.sub-container-block5 {
+  position: relative;
+  left: 2vw;
+  width: 40vw;
+  padding: 2vh;
+  order: -1;
+}
+.sub-container-block5 p {
+  font-size: clamp(1px, 1.84vmin, 16px);/*1.84vh;*/
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vh;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: clamp(2px, 4vmin, 32px);/*1.84vh;*/
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: #007bff;
+  transition: color 0.3s;
+}
+

@@ -58,7 +58,7 @@ body {
   margin-top: 1vh;
 }
 .block-x h2 {
-  font-size: clamp(1px, 1.5vw, 35px);
+  font-size: clamp(1px, 2vmin, 35px);
 }
 
 .block3 {
@@ -85,7 +85,7 @@ body {
 }
 
 .block-y h2 {
-  font-size: clamp(1px, 1.5vw, 35px);
+  font-size: clamp(1px, 2vmin, 35px);
 }
 
 .text-block3 {

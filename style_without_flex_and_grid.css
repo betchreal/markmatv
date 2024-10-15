@@ -66,7 +66,7 @@ body {
 }
 
 .block-x h2 {
-  font-size: 1.5vw;
+  font-size: 1.5vmin;
 }
 
 .block3 {
@@ -94,7 +94,7 @@ body {
 }
 
 .block-y h2 {
-  font-size: 1.5vw;
+  font-size: 1.5vmin;
 }
 
 .sub-container-block2 {
@@ -103,17 +103,17 @@ body {
   position: relative;
   left: 25vw;
   bottom: 5vh;
-  font-size: 1vw;
+  font-size: 1.5vmin;
 }
 
 .text-block3 {
   position: relative;
   top: 15vh;
-  font-size: 1vw;
+  font-size: 1.5vmin;
 }
 
 .sub-container-block4 {
-  font-size: 1vw;
+  font-size: 1.5vmin;
 }
 
 .sub-container-block5 {
@@ -121,7 +121,7 @@ body {
   height: 10vh;
   position: relative;
   top: 2vh;
-  font-size: 1vw;
+  font-size: 1.5vmin;
 }
 
 .nav-list {
@@ -139,7 +139,7 @@ body {
   text-decoration: none;
   color: #7a7a7a;
   font-weight: bold;
-  font-size: 3vh;
+  font-size: 3vmin;
   display: block;
 }
 

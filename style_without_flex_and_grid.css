@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: left;
+  font-size: 0;
+}
+
+.left, .middle, .right {
+  display: inline-block;
+  vertical-align: top;
+  height: 100vh;
+}
+
+.left {
+  width: 30%;
+}
+
+.middle {
+  width: 5%;
+}
+
+.right {
+  width: 65%;
+}
+
+.block1, .block4, .block2, .block3, .block5 {
+  border: 0.1vw solid black;
+  padding: 1.5vh;
+}
+
+.block1 {
+  background-color: #f5e3d8;
+  text-align: center;
+  height: 69.7vh;
+}
+
+.block4 {
+  height: 30.3vh;
+  background-color: #e6f4d4;
+}
+
+.block2 {
+  background-color: #d0e3f7;
+  position: relative;
+  padding-top: 4vh;
+  height: 28vh
+}
+
+.block-x {
+  position: relative;
+  left: 2vw;
+  background-color: white;
+  border: 0.1vw solid black;
+  width: 7.3vw;
+  height: 4.5vh;
+  text-align: center;
+  line-height: 4vh;
+}
+
+.block-x h2 {
+  font-size: 1.5vw;
+}
+
+.block3 {
+  background-color: white;
+  text-align: center;
+  height: 44vh;
+}
+
+.block5 {
+  background-color: #d0e3f7;
+  position: relative;
+  height: 28vh;
+}
+
+.block-y {
+  position: absolute;
+  bottom: 20vh;
+  right: 5vw;
+  background-color: white;
+  border: 0.1vw solid black;
+  width: 7.3vw;
+  height: 4.5vh;
+  text-align: center;
+  line-height: 4vh;
+}
+
+.block-y h2 {
+  font-size: 1.5vw;
+}
+
+.sub-container-block2 {
+  width: 35vw;
+  height: 10vh;
+  position: relative;
+  left: 25vw;
+  bottom: 5vh;
+  font-size: 1vw;
+}
+
+.text-block3 {
+  position: relative;
+  top: 15vh;
+  font-size: 1vw;
+}
+
+.sub-container-block4 {
+  font-size: 1vw;
+}
+
+.sub-container-block5 {
+  width: 35vw;
+  height: 10vh;
+  position: relative;
+  top: 2vh;
+  font-size: 1vw;
+}
+
+.nav-list {
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+}
+
+.nav-list li {
+  margin: 2vh;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-weight: bold;
+  font-size: 3vh;
+  display: block;
+}
+
+.nav-list li a:hover {
+  color: #007bff;
+  transition: color 0.3s;
+}
